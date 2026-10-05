@@ -26,7 +26,7 @@ export default function HeroSection() {
           quality={100}
           className="object-cover object-[80%_center] sm:object-[75%_center] md:object-right"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-white/85 via-white/45 to-white/85 sm:bg-gradient-to-r sm:from-white/95 sm:via-white/75 sm:to-transparent lg:bg-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/30 via-transparent to-white/40 lg:bg-none" />
       </div>
 
       <div className="absolute top-28 right-8 sm:right-16 lg:right-28 z-20 pointer-events-none transform -rotate-3 select-none hidden md:block">
@@ -39,9 +39,9 @@ export default function HeroSection() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
-          <div className="lg:col-span-6 space-y-5 sm:space-y-6 max-w-xl">
+          <div className="lg:col-span-6 bg-white/85 sm:bg-white/90 lg:bg-transparent backdrop-blur-md lg:backdrop-blur-none p-5 sm:p-7 lg:p-0 rounded-3xl lg:rounded-none border border-white/80 lg:border-0 shadow-xl shadow-blue-950/10 lg:shadow-none space-y-5 sm:space-y-6 max-w-xl">
             <div className="inline-flex items-center gap-2">
-              <span className="text-[#1D4ED8] font-bold text-[11px] sm:text-sm tracking-wider uppercase bg-blue-100/90 text-blue-700 px-3.5 py-1.5 rounded-full border border-blue-200 shadow-sm backdrop-blur-sm">
+              <span className="text-[#1D4ED8] font-bold text-[11px] sm:text-sm tracking-wider uppercase bg-blue-50/90 text-[#1D4ED8] px-3.5 py-1.5 rounded-full border border-blue-200/80 shadow-sm">
                 SMART PARKING MANAGEMENT SYSTEM
               </span>
             </div>
@@ -80,8 +80,8 @@ export default function HeroSection() {
               </a>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4 pt-4 border-t border-slate-300/80">
-              <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-200 shadow-sm sm:shadow-none">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4 pt-3 sm:pt-4 border-t border-slate-200/80">
+              <div className="flex items-center gap-2.5 bg-white/70 sm:bg-transparent backdrop-blur-sm p-2 sm:p-0 rounded-xl border sm:border-0 border-slate-200/80 shadow-sm sm:shadow-none">
                 <div className="p-2 rounded-lg bg-blue-50 text-[#1D4ED8] shadow-sm flex-shrink-0">
                   <Zap size={16} />
                 </div>
@@ -95,7 +95,7 @@ export default function HeroSection() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-200 shadow-sm sm:shadow-none">
+              <div className="flex items-center gap-2.5 bg-white/70 sm:bg-transparent backdrop-blur-sm p-2 sm:p-0 rounded-xl border sm:border-0 border-slate-200/80 shadow-sm sm:shadow-none">
                 <div className="p-2 rounded-lg bg-blue-50 text-[#1D4ED8] shadow-sm flex-shrink-0">
                   <ShieldCheck size={16} />
                 </div>
@@ -109,7 +109,7 @@ export default function HeroSection() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-200 shadow-sm sm:shadow-none">
+              <div className="flex items-center gap-2.5 bg-white/70 sm:bg-transparent backdrop-blur-sm p-2 sm:p-0 rounded-xl border sm:border-0 border-slate-200/80 shadow-sm sm:shadow-none">
                 <div className="p-2 rounded-lg bg-blue-50 text-[#1D4ED8] shadow-sm flex-shrink-0">
                   <Clock size={16} />
                 </div>
@@ -123,7 +123,7 @@ export default function HeroSection() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-200 shadow-sm sm:shadow-none">
+              <div className="flex items-center gap-2.5 bg-white/70 sm:bg-transparent backdrop-blur-sm p-2 sm:p-0 rounded-xl border sm:border-0 border-slate-200/80 shadow-sm sm:shadow-none">
                 <div className="p-2 rounded-lg bg-blue-50 text-[#1D4ED8] shadow-sm flex-shrink-0">
                   <Cpu size={16} />
                 </div>
