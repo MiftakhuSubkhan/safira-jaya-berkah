@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "Smart Parking Indonesia",
     "Parkir E-Money",
     "Palang Parkir Otomatis",
-    "Pengelolaan Parkir Yogyakarta",
+    "Pengelolaan Parkir Jakarta",
   ],
   authors: [{ name: "Safira Jaya Berkah Parking" }],
   openGraph: {

@@ -15,6 +15,8 @@ export const COMPANY_INFO = {
   description:
     "Penyedia solusi manajemen parkir otomatis terdepan di Indonesia. Menghadirkan teknologi manless gate, LPR camera, dan e-money reader untuk efisiensi bisnis Anda.",
   phone: "087844461289",
-  email: "info@safirajayaberkah.co.id",
-  location: "Sleman, Yogyakarta",
+  email: "safirajayaabadi0@gmail.com",
+  location:
+    "KP. MUK RT 006 RW 004, Kel. Kedaung Kali Angke, Kec. Cengkareng, Kota Adm. Jakarta Barat, DKI Jakarta 11710",
+  kbli: "52215 - Aktivitas Perparkiran di Luar Badan Jalan (Off Street Parking)",
 };

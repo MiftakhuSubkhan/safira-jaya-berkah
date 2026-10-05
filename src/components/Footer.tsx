@@ -96,9 +96,9 @@ export default function Footer() {
                 <span>{COMPANY_INFO.email}</span>
               </a>
 
-              <div className="flex items-center gap-2.5">
-                <MapPin size={16} className="text-emerald-400 flex-shrink-0" />
-                <span>{COMPANY_INFO.location}</span>
+              <div className="flex items-start gap-2.5">
+                <MapPin size={16} className="text-emerald-400 flex-shrink-0 mt-0.5" />
+                <span className="leading-relaxed">{COMPANY_INFO.location}</span>
               </div>
             </div>
 
