@@ -15,20 +15,21 @@ export default function HeroSection() {
   return (
     <section
       id="beranda"
-      className="relative min-h-[100dvh] w-full pt-24 pb-12 sm:pt-28 sm:pb-16 lg:pt-32 overflow-hidden flex items-center bg-gradient-to-b from-blue-50/60 via-white to-slate-50 lg:bg-none"
+      className="relative min-h-[100dvh] w-full pt-24 pb-12 sm:pt-28 sm:pb-16 lg:pt-32 overflow-hidden flex items-center bg-slate-900/5"
     >
-      <div className="absolute inset-0 z-0 hidden lg:block">
+      <div className="absolute inset-0 z-0">
         <Image
           src="/images/background-hero-parkir.png"
           alt="Safira Jaya Berkah Parking - Smart Parking Gate"
           fill
           priority
           quality={100}
-          className="object-cover object-right"
+          className="object-cover object-[80%_center] sm:object-[75%_center] md:object-right"
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/85 via-white/45 to-white/85 sm:bg-gradient-to-r sm:from-white/95 sm:via-white/75 sm:to-transparent lg:bg-none" />
       </div>
 
-      <div className="absolute top-28 right-8 sm:right-16 lg:right-28 z-20 pointer-events-none transform -rotate-3 select-none hidden lg:block">
+      <div className="absolute top-28 right-8 sm:right-16 lg:right-28 z-20 pointer-events-none transform -rotate-3 select-none hidden md:block">
         <span className="font-handwriting text-2xl sm:text-3xl font-bold text-[#1D4ED8] tracking-wide drop-shadow-sm">
           Parkir Lebih Mudah,
           <br />
@@ -40,7 +41,7 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
           <div className="lg:col-span-6 space-y-5 sm:space-y-6 max-w-xl">
             <div className="inline-flex items-center gap-2">
-              <span className="text-[#1D4ED8] font-bold text-[11px] sm:text-sm tracking-wider uppercase bg-blue-100/80 text-blue-700 px-3.5 py-1.5 rounded-full border border-blue-200 shadow-sm">
+              <span className="text-[#1D4ED8] font-bold text-[11px] sm:text-sm tracking-wider uppercase bg-blue-100/90 text-blue-700 px-3.5 py-1.5 rounded-full border border-blue-200 shadow-sm backdrop-blur-sm">
                 SMART PARKING MANAGEMENT SYSTEM
               </span>
             </div>
@@ -51,27 +52,10 @@ export default function HeroSection() {
               <span className="text-[#1D4ED8]">Lebih Modern</span>
             </h1>
 
-            <p className="text-slate-600 text-sm sm:text-lg leading-relaxed max-w-lg font-medium">
+            <p className="text-slate-700 text-sm sm:text-lg leading-relaxed max-w-lg font-medium">
               Tingkatkan efisiensi, keamanan, dan kenyamanan pengelolaan parkir
               dengan teknologi canggih dari Safira Jaya Berkah Parking.
             </p>
-
-            <div className="lg:hidden relative w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden shadow-lg border border-blue-100 bg-slate-100 my-4">
-              <Image
-                src="/images/background-hero-parkir.png"
-                alt="Safira Jaya Berkah Parking - Smart Parking Gate"
-                fill
-                priority
-                quality={100}
-                className="object-cover object-[78%_center]"
-              />
-              <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full shadow-md border border-white/80">
-                <span className="text-[11px] font-bold text-[#1D4ED8] flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                  Gerbang Otomatis
-                </span>
-              </div>
-            </div>
 
             <div className="pt-1">
               <a
@@ -96,8 +80,8 @@ export default function HeroSection() {
               </a>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4 pt-4 border-t border-slate-200">
-              <div className="flex items-center gap-2.5 bg-white sm:bg-transparent p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-100 shadow-sm sm:shadow-none">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4 pt-4 border-t border-slate-300/80">
+              <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-200 shadow-sm sm:shadow-none">
                 <div className="p-2 rounded-lg bg-blue-50 text-[#1D4ED8] shadow-sm flex-shrink-0">
                   <Zap size={16} />
                 </div>
@@ -105,13 +89,13 @@ export default function HeroSection() {
                   <p className="text-xs sm:text-sm font-bold text-slate-900 leading-tight">
                     Otomatis
                   </p>
-                  <p className="text-[10px] sm:text-[11px] text-slate-500 leading-tight mt-0.5 font-medium">
+                  <p className="text-[10px] sm:text-[11px] text-slate-600 leading-tight mt-0.5 font-medium">
                     Tanpa Operator
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-2.5 bg-white sm:bg-transparent p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-100 shadow-sm sm:shadow-none">
+              <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-200 shadow-sm sm:shadow-none">
                 <div className="p-2 rounded-lg bg-blue-50 text-[#1D4ED8] shadow-sm flex-shrink-0">
                   <ShieldCheck size={16} />
                 </div>
@@ -119,13 +103,13 @@ export default function HeroSection() {
                   <p className="text-xs sm:text-sm font-bold text-slate-900 leading-tight">
                     Aman
                   </p>
-                  <p className="text-[10px] sm:text-[11px] text-slate-500 leading-tight mt-0.5 font-medium">
+                  <p className="text-[10px] sm:text-[11px] text-slate-600 leading-tight mt-0.5 font-medium">
                     Anti Kecurangan
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-2.5 bg-white sm:bg-transparent p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-100 shadow-sm sm:shadow-none">
+              <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-200 shadow-sm sm:shadow-none">
                 <div className="p-2 rounded-lg bg-blue-50 text-[#1D4ED8] shadow-sm flex-shrink-0">
                   <Clock size={16} />
                 </div>
@@ -133,13 +117,13 @@ export default function HeroSection() {
                   <p className="text-xs sm:text-sm font-bold text-slate-900 leading-tight">
                     Efisien
                   </p>
-                  <p className="text-[10px] sm:text-[11px] text-slate-500 leading-tight mt-0.5 font-medium">
+                  <p className="text-[10px] sm:text-[11px] text-slate-600 leading-tight mt-0.5 font-medium">
                     Hemat Biaya
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-2.5 bg-white sm:bg-transparent p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-100 shadow-sm sm:shadow-none">
+              <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm p-2.5 sm:p-0 rounded-xl border sm:border-0 border-slate-200 shadow-sm sm:shadow-none">
                 <div className="p-2 rounded-lg bg-blue-50 text-[#1D4ED8] shadow-sm flex-shrink-0">
                   <Cpu size={16} />
                 </div>
@@ -147,7 +131,7 @@ export default function HeroSection() {
                   <p className="text-xs sm:text-sm font-bold text-slate-900 leading-tight">
                     Modern
                   </p>
-                  <p className="text-[10px] sm:text-[11px] text-slate-500 leading-tight mt-0.5 font-medium">
+                  <p className="text-[10px] sm:text-[11px] text-slate-600 leading-tight mt-0.5 font-medium">
                     Teknologi Terdepan
                   </p>
                 </div>
