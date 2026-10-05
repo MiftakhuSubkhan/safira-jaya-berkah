@@ -1,0 +1,20 @@
+export const WA_PHONE_NUMBER = "087844461289";
+export const WA_URL =
+  "https://wa.me/6287844461289?text=Halo%20Safira%20Jaya%20Berkah%20Parking,%20saya%20tertarik%20untuk%20konsultasi%20pengelolaan%20parkir.";
+
+export const NAV_LINKS = [
+  { name: "Beranda", href: "#beranda" },
+  { name: "Fitur", href: "#fitur" },
+  { name: "Paket Kerjasama", href: "#kemitraan" },
+  { name: "Kontak", href: "#kontak" },
+];
+
+export const COMPANY_INFO = {
+  name: "Safira Jaya Berkah Parking",
+  tagline: "Smart Parking Management System",
+  description:
+    "Penyedia solusi manajemen parkir otomatis terdepan di Indonesia. Menghadirkan teknologi manless gate, LPR camera, dan e-money reader untuk efisiensi bisnis Anda.",
+  phone: "087844461289",
+  email: "info@safirajayaberkah.co.id",
+  location: "Sleman, Yogyakarta",
+};
