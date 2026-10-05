@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { WA_PHONE_NUMBER } from "@/constants";
+import { WA_RAW_NUMBER } from "@/constants";
 import {
   CheckCircle2,
   Coins,
@@ -12,9 +12,7 @@ import {
 
 export default function KemitraanStrategis() {
   const getWaLink = (packageName: string) => {
-    return `https://wa.me/62${WA_PHONE_NUMBER.substring(
-      1
-    )}?text=${encodeURIComponent(
+    return `https://wa.me/${WA_RAW_NUMBER}?text=${encodeURIComponent(
       `Halo Safira Jaya Berkah Parking, saya tertarik untuk berkonsultasi mengenai paket kemitraan: ${packageName}.`
     )}`;
   };

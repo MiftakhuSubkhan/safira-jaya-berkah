@@ -4,7 +4,9 @@ import React from "react";
 import Logo from "./Logo";
 import {
   WA_PHONE_NUMBER,
+  WA_PHONE_NUMBER_2,
   WA_URL,
+  WA_URL_2,
   COMPANY_INFO,
   NAV_LINKS,
 } from "@/constants";
@@ -86,6 +88,16 @@ export default function Footer() {
               >
                 <Phone size={16} className="text-emerald-400 flex-shrink-0" />
                 <span>{WA_PHONE_NUMBER}</span>
+              </a>
+
+              <a
+                href={WA_URL_2}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2.5 hover:text-emerald-400 transition-colors"
+              >
+                <Phone size={16} className="text-emerald-400 flex-shrink-0" />
+                <span>{WA_PHONE_NUMBER_2}</span>
               </a>
 
               <a
